@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://chkraska.github.io/age-calculator-app/)
+- Solution URL: https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q/hub?share=true
+- Live Site URL: https://chkraska.github.io/age-calculator-app/
 
 ## My process
 
