@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/index.js" defer></script>
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <div class="form_wrapper">
+        <form class="form">
+          <div class="input_wrapper">
+            <label for="input_day" class="label abel_day">Day</label>
+            <input
+              type="number"
+              class="input"
+              id="input_day"
+              name="day"
+              placeholder="DD"
+            />
+            <p class="error">error</p>
+          </div>
+          <div class="input_wrapper">
+            <label for="input_month" class="label label_month">Month</label>
+            <input
+              class="input"
+              type="number"
+              id="input_month"
+              name="month"
+              placeholder="MM"
+            />
+            <p class="error"></p>
+          </div>
+          <div class="input_wrapper">
+            <label for="input_year" class="label label_year">Year</label>
+            <input
+              class="input"
+              type="number"
+              id="input_year"
+              name="year"
+              placeholder="YYYY"
+            />
+            <p class="error"></p>
+          </div>
+          <button class="button_sub" type="submit">
+            <img src="/assets/images/icon-arrow.svg" alt="icon" class="icon" />
+            <span class="sr-only">Submit</span>
+          </button>
+        </form>
+      </div>
+      <div class="result-wrapper">
+        <h2><span class="result result_years">- -</span>years</h2>
+        <h2><span class="result result_months">- -</span>months</h2>
+        <h2><span class="result result_days">- -</span>days</h2>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/chkraska"
+          >Chrystian Kraska</a
+        >.
+      </div>
+    </main>
+  </body>
+</html>

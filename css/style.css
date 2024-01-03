@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Neutral*/
+/*Primary*/
+html {
+  font-size: 62, 5%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100svh;
+  background-color: hsl(0, 0%, 94%);
+}
+
+.main {
+  width: 95%;
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  border-radius: 2rem 2rem 6rem 2rem;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.form_wrapper {
+  position: relative;
+  padding-block-end: 6rem;
+  border-bottom: 1px solid hsl(0, 0%, 86%);
+  margin-block-end: 6rem;
+}
+
+.form {
+  display: flex;
+  gap: 5rem;
+}
+
+.input_wrapper {
+  flex: 1;
+}
+
+.input_wrapper_error .label {
+  color: hsl(0, 100%, 67%);
+}
+
+.input_wrapper_error .input {
+  border: 1px solid hsl(0, 100%, 67%) !important;
+}
+
+.input_wrapper_error .error {
+  visibility: visible;
+}
+
+.error {
+  visibility: hidden;
+  color: hsl(0, 100%, 67%);
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14.5px;
+}
+
+.label {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: hsl(0, 1%, 44%);
+  letter-spacing: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.input {
+  margin-block-start: 1rem;
+  margin-block-end: 0.25rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem;
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 0.5rem;
+}
+
+.input:hover {
+  cursor: pointer;
+}
+
+.input:focus {
+  border: 1px solid hsl(259, 100%, 65%);
+  outline: none;
+}
+
+::placeholder {
+  color: hsl(0, 1%, 44%);
+  font-weight: 600;
+}
+
+.button_sub {
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  transform: translate(-50%, 50%);
+  background-color: hsl(259, 100%, 65%);
+  border-radius: 50%;
+  border: none;
+  padding: 1.6rem;
+}
+
+.button_sub:hover {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.button_sub .icon {
+  width: 2.3rem;
+  height: auto;
+}
+
+.result-wrapper {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+
+.result {
+  color: hsl(259, 100%, 65%);
+}
+
+.result-wrapper h2 {
+  font-size: 7.2rem;
+  line-height: 1.1;
+}
+
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  margin: -1px;
+}
+
+.attribution {
+  margin-top: 1rem;
+  font-size: 0.5rem;
+}
+
+@media (max-width: 375px) {
+  .main {
+    max-width: 30rem;
+  }
+  .result-wrapper h2 {
+    font-size: 4rem;
+  }
+  .form {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=style.css.map */
